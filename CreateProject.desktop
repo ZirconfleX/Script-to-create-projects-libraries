@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=CreateProject
+Exec=/home/user/Templates/VhdlProjects/CreateProject.sh
+Comment=Create a AMD FPGA Project
+Terminal=false
+Icon=/user/share/icons/Mint-Y/Categories/32/applications-puzzles.png
+Type=Application
+Categories=Electronics;Education;Science;Programming;
+Name[en_GB]=CreateProject.desktop
