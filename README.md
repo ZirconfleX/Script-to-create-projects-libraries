@@ -2,12 +2,12 @@
 
 ## Introduction
 
-This is about a Linux Bash script created to setup a project and/or library structure for AMD FPGA designs.
-The project structure is there to give full control over a design without the need to use Vivado or Vitis graphical user interface for design management. When using the VS-Code editor with selected extensions there is no need to let Vivado or another tool manage the design. The only thing Vivado is used for is for the tasks it is build for; synthesise and implement (place & route) a design. 
+This is about a Linux Bash script to setup a project and/or library structure for AMD FPGA designs.
+The project structure is there to give to user full control over a design without the need to use Vivado or Vitis graphical user interface for design management. Using the VS-Code editor with selected extensions eliminates the need to let another tool manage the design. The only thing Vivado is used for is for the tasks it is originally build for; synthesise and implement (place & route) a design. 
 
 ## Provided
 
-The script and accompanying directories and files are delivered as a zip file (CreateProject_[date].zip). The setup of the script and its directories and files is as showed below:
+The script and accompanying directories and files can be cloned from GitHub or are delivered as a zip file (CreateProject_[date].zip) . The setup of the script and its directories and files is as showed below.
 
  .        *(This is usually the /templates directory in the users home directory)*  
 ├─ /VhdlProjects  
@@ -41,30 +41,31 @@ The directories and files are discussed in this document.
 
 **Remark:**  
 
-- All files in this zip file are delivered as is (standard/default setup) and can be modified by the user to the needs of the user.
+- All files are delivered as is and can be modified by the user to the needs of the user.
 
 ## Installation
 
 The tool is aimed to be used in a Linux environment because the main element of this tool is a bash script.
 
-- Copy the provided zip file in the directory used to store templates.
-  - Most of the time the user default template folder is /home/<user>/Templates
-  - When storing templates somewhere else, use that folder.
+- Create a directory for the tool in the local directory used to store templates
+  - Most of the time the user default template folder is /home/<user>/Templates.
+      Create there a sub-directory CreateProject (example name)
+  - When storing templates somewhere else, use that folder and make there the sub-directory.
   - When not having a folder for templates create one or use the default of the system.
-- Unzip the contents of the zip file in the chosen *Templates* folder.
+- Clone the files and directories into that sub-directory or decompress the downloaded zip file in the sub-directory used to store application.
 
 **Remark:** 
 
-- The CreateProject.desktop file will need to be changed when using a different templates file than the one used in the Cinnamon desktop for Ubuntu, Linux-Mint or Manjaro.
+- The CreateProject.desktop file will need to be edited when using a different templates directory than the one used in the Cinnamon desktop for Ubuntu, Linux-Mint or Manjaro.
 
-- Change the path to the script in this line:
+- Change the path to the script in the CreateProject.desktop file as this line:
 
     ```
     Exec=/home/user/Templates/VhdlProjects/CreateProject.sh
     ```
 
 ## For Linux do:
-This is written for Ubuntu, Linux-Mint or Manjaro Gnome and/or Cinnamon desktops. The script itself should work on all systems running “the Bourne Again SHell” (Bash). The tool is setup to bring the script as an icon in the main menu of systems running Gnome or Cinnamon desktop environments. 
+This is written for Ubuntu, Linux-Mint or Manjaro Gnome and/or Cinnamon desktops. The script itself should work on all systems running “the Bourne Again SHell” (Bash). The CreateProject.desktop file is there to bring the script as an icon in the main menu of systems running Gnome or Cinnamon desktop environments. 
 
 - Copy the *CreateProject.desktop* file into the `.local/share/applications` directory.
     - Open the file with a text editor and change the word “**user**” in:
@@ -73,16 +74,15 @@ This is written for Ubuntu, Linux-Mint or Manjaro Gnome and/or Cinnamon desktops
         Exec=/home/user/Templates/CreateProject/CreateProject.sh
         ```
     
-        YOUR user name.
+        to YOUR user name.
     - It is also possible that a complete other directory than the default Templates directory in the home directory is used to store the script. Make sure the path in above showed line behind **Exec=** reflects the correct path to the “CreateProject.sh” file.
 - Make sure both the .desktop and .sh file are executable!
 
-Now it's possible to just double click the icon to create a new project or library with all its directories
-and files. Running the *.sh* script will setup a project structure like showed below.
+Now it's possible to have an icon on the desktop or in the main menu system that can be double clicked to launch the script to create projects and/or libraries. Running the *.sh* script will setup a project structure like showed below.
 
 **Remark:**
 
-- One can run the script form within a terminal by calling the script as
+- The script can be run form the command line in a terminal by calling the script as
 
     ```
     . /home/<user>/Templates/CreateProject/CreateProject.sh
