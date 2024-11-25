@@ -3,7 +3,7 @@
 ## Introduction
 
 This is about a Linux Bash script to setup a project and/or library structure for AMD FPGA designs.
-The project structure is there to give to user full control over a design without the need to use Vivado or Vitis graphical user interface for design management. Using the VS-Code editor with selected extensions eliminates the need to let another tool manage the design. The only thing Vivado is used for is for the tasks it is originally build for; synthesise and implement (place & route) a design. 
+The project structure is there to give to user full control over a design without the need to use Vivado or Vitis graphical user interface for design management. Using the VS-Code editor with selected extensions eliminates the need to let another tool manage the design. The only thing Vivado is used for is for the tasks it is originally build for; synthesize and implement (place & route) a design. 
 
 ## Provided
 
