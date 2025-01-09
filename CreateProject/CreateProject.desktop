@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=CreateProject
+# Change the 'Exec' path following the location were the CreateProject is saved.
+Exec=/home/marc/Templates/CreateProject/CreateProject.sh
+Comment=Create a AMD/Xilinx FPGA Project
+Terminal=false
+# It might be necesssary to change the icon
+Icon=project_show
+Type=Application
+Terminal=true
+Categories=Electronics;Education;Science;Programming;
+Name[en_GB]=CreateProject
+PrefersNonDefaultGPU=false
+#
+# This file is stored in /home/<user>/.local/share/applications
+# The file must be executable
+

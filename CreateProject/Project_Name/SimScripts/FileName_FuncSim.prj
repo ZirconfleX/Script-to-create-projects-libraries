@@ -1,0 +1,9 @@
+#-------------------------------------------------------------------------------------------------
+#
+vhdl work  \
+"../Vhdl/${FILE_NAME}.vhd" \
+"../Vhdl/${FILE_NAME}_Tester.vhd" \
+"../Vhdl/${FILE_NAME}_Testbench.vhd" \
+
+# Do not sort the compile order
+nosort

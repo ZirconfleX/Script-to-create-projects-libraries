@@ -10,7 +10,7 @@ The project structure is there to give to user full control over a design withou
 The script and accompanying directories and files can be cloned from GitHub or are delivered as a zip file (CreateProject_[date].zip) . The setup of the script and its directories and files is as showed below.
 
  .        *(This is usually the /templates directory in the users home directory)*  
-├─ /VhdlProjects  
+├─ /CreateProject  
 │    ├─ /FileHeaders				File headers, project data and legal statements for all created files. 
 │    ├─ /Library_Name			The library template directory  
 │    │    ├─ /Documents  

@@ -1,0 +1,14 @@
+#-------------------------------------------------------------------------------------------------
+#- Revision History:
+#-  Rev: ${DATE} - ${AUTHOR}
+#-      Initial version of this simulation scripting file..
+#-  Rev:
+#-------------------------------------------------------------------------------------------------
+#
+vhdl work  \
+"../Vhdl/${FILE_NAME}.vhd" \
+"../Vhdl/${FILE_NAME}_Tester.vhd" \
+"../Vhdl/${FILE_NAME}_Testbench.vhd" \
+
+# Do not sort the compile order
+nosort
