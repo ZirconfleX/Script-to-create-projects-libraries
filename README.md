@@ -9,7 +9,7 @@ The project structure is there to give to user full control over a design withou
 
 The script and accompanying directories and files can be cloned from GitHub or are delivered as a zip file (CreateProject_[date].zip) . The setup of the script and its directories and files is as showed below.
 
- .        *(This is usually the /templates directory in the users home directory)*  
+ . *(This is usually the /templates directory in the users home directory)*  
 ├─ /CreateProject  
 │    ├─ /FileHeaders    File headers, project data and legal statements for all created files.
 │    ├─ /Library_Name   The library template directory  
@@ -64,7 +64,7 @@ The tool is aimed to be used in a Linux environment because the main element of 
     Exec=/home/user/Templates/VhdlProjects/CreateProject.sh
     ```
 
-## For Linux do:
+## For Linux do
 
 This is written for Ubuntu, Linux-Mint or Manjaro Gnome and/or Cinnamon desktops. The script itself should work on all systems running “the Bourne Again SHell” (Bash). The CreateProject.desktop file is there to bring the script as an icon in the main menu of systems running Gnome or Cinnamon desktop environments. 
 
@@ -94,19 +94,19 @@ Now it's possible to have an icon on the desktop or in the main menu system that
 A project when setup by the script is an automatically customised copy of the directories and files in the **~/Templates/CreateProject/Project_Name** directory. It is thus fairly easy to modify and tune the project setup to the needs of the user.
 A basic projects shows a directory structure as:
 
-. (Project Root Directory)
-├─ Project directory
-│    ├─ Constraints
-│    ├─ Documents
-│    ├─ Libraries
-│    ├─ PetaLinux
-│    ├─ Pynq
-│    ├─ SimScripts
-│    ├─ Simulation
-│    ├─ Vhdl
-│    ├─ Vivado
-│    ├─ Vitis
-│    ├─ ZipFiles
+. (Project Root Directory)  
+├─ Project directory  
+│    ├─ Constraints  
+│    ├─ Documents  
+│    ├─ Libraries  
+│    ├─ PetaLinux  
+│    ├─ Pynq  
+│    ├─ SimScripts  
+│    ├─ Simulation  
+│    ├─ Vhdl  
+│    ├─ Vivado  
+│    ├─ Vitis  
+│    ├─ ZipFiles  
 
 ### Constraints
 
@@ -179,12 +179,12 @@ Two types of libraries can be created using the script. What's called a simple l
 
 Simple Library setup:
 
-Libraries (The libraries directory of a project)
-├─ Library directory
-│    ├─ Documents
-│    ├─ SimScripts
-│    ├─ Simulation
-│    ├─ Vhdl
+Libraries (The libraries directory of a project)  
+├─ Library directory  
+│    ├─ Documents  
+│    ├─ SimScripts  
+│    ├─ Simulation  
+│    ├─ Vhdl  
 
 Project directory setup:
 
