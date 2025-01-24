@@ -7,7 +7,7 @@
 --!|**Limitations:**                | None                                                  |
 --!|**Tools:**                      | ${VIVADO_TOOL}                                        |
 --!|**Author:**                     | ${AUTHOR}                                             |
---!|**Vendor:**                     | ${ENDOR}                                              |
+--!|**Vendor:**                     | ${VENDOR}                                             |
 --!|**Version:**                    | 0.01                                                  |
 --!|**Date Created:**               | ${DATE}                                               |
 --!|**Date Last Modified:**         | ${DATE}                                               |
@@ -34,10 +34,10 @@
 --!      foreseeable or ${VENDOR} had been advised of the possibility
 --!      of the same.
 --!      CRITICAL APPLICATIONS
---!		 ${VENDOR} products are not designed or intended to be fail-safe, 
---!      or for use in any application requiring fail-safe performance, such as 
+--!		 ${VENDOR} products are not designed or intended to be fail-safe,
+--!      or for use in any application requiring fail-safe performance, such as
 --!      life-support or safety devices or systems, Class III medical devices, nuclear
---!      facilities, applications related to the deployment of airbags, or any other 
+--!      facilities, applications related to the deployment of airbags, or any other
 --!      applications that could lead to death, personal injury, or severe property or
 --!      environmental damage (individually and collectively, "Critical Applications").
 --!      Customer assumes the sole risk and liability of any use of ${VENDOR} products
@@ -47,6 +47,6 @@
 --! Copyright:
 --!      ${YEAR} ${VENDOR}.
 --!      All rights reserved. This file contains confidential and proprietary information
---!      of ${VENDOR}. and is protected under European and international 
+--!      of ${VENDOR}. and is protected under European and international
 --!      copyright and other intellectual property laws.
 --!------------------------------------------------------------------------------------------
